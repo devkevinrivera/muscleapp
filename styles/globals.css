@@ -1,3 +1,6 @@
+@import 'semantic-ui-css/semantic.min.css';
+
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -104,4 +107,8 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.paddingcard {
+  padding: 1rem !important;
 }

@@ -15,7 +15,6 @@ export default function Home() {
           <Grid.Row>
             <Grid.Column mobile={16}>
               <Header>MR.MUSCLE APP</Header>
-              <Header>powered by Kevin Rivera</Header>
             </Grid.Column>
             {
               DB.musclesRoutines.map((entry,index) => (
